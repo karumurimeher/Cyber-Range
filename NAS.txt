@@ -1,0 +1,20 @@
+NAS (Network Attached Storage)
+
+1. What are the platforms.
+2. Store the logs files 
+3. Building a VMWare on NAS.
+4. Create a GitHub Repository name "Cyber Range" and give access.
+5. NAS Device Used --> Synology
+
+
+Running VMware on NAS 
+1. package center --> search virtual --> install virtual machine manager --> open it --> give the settings --> virtual machine --> choose OS --> windows --> select storage --> give vm name, cpu, memory, video card --> Storage --> Network --> download the drivers that are asked --> browse and select the os --> give other settings --> ok --> run the vm 
+
+Creating a NAS Cloud 
+1. Package ceneter --> Synology drive server --> 3 apps get installed --> synology drive admin console --> team folder --> Versioning --> Intelleversionng --> rotate versions regularly --> ok --> general folders --> click enable --> enable --> ok
+2. synology drive web portal --> there you can access the drive portal --> Upload or download over there 
+3. chrome --> synology drive client --> download and intall --> sync 
+Note: MyDrive is disabled --> control panel -- users --> advanced --> user homes --> enable --> choose the volume --> Ok
+
+Setting up Logs in NAS
+1. Package Center --> Search Log Center --> Download and Install --> Archive --> Select Location --> Create Folder --> Procced with default settings --> Apply --> Archive Settings --> Select Location --> Select the file --> Give Archive Rules --> Apply --> Log Recieving --> Create Rule --> Apply 
